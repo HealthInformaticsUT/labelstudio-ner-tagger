@@ -1,0 +1,20 @@
+name: labelstudio-taggers
+channels:
+  - conda-forge
+  - defaults
+  - estnltk/label/dev
+  - estnltk
+dependencies:
+  - python=3.8.11
+  - estnltk::estnltk=1.6.9b
+  - pyahocorasick
+  - pip=21.1.*
+  - typing_extensions=3.10.0.*    # Initially 3.10.0.0
+  - psycopg2=2.9.*
+  - pytorch::pytorch=1.9.0
+  - huggingface::transformers=4.8.1
+  - huggingface::datasets=1.10.*
+  - ipywidgets=7.6.*
+  - scikit-learn=0.24.*
+  - notebook=6.4.*
+  - jupyter=1.0.*

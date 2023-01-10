@@ -1,0 +1,1 @@
+[{"name": "stages", "attributes": ["grammar_symbol", "regex_type", "value", "_priority_"], "parent": null, "enveloping": null, "ambiguous": true, "serialisation_module": null, "meta": {}, "spans": [{"base_span": [66, 72], "annotations": [{"grammar_symbol": "STAGE", "regex_type": "r1", "value": "IVB", "_priority_": 0}]}]}]

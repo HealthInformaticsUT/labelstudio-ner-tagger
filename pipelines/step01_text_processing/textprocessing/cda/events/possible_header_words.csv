@@ -1,0 +1,264 @@
+_regex_pattern_,grammar_symbol,regex_type,value,_group_,_priority_
+regex,string,string,callable,callable,callable
+"Neurofüsioloogia\s*
+",HEADERWORD,header_word,lambda m: m.group(0).strip(),0,0
+"Haiguse anamnees: Eluanamnees:\s*
+",HEADERWORD,header_word,lambda m: m.group(0).strip(),0,0
+"Nukleaarmeditsiin\s*
+",HEADERWORD,header_word,lambda m: m.group(0).strip(),0,0
+"Soovib läbivaatust juhiloa saamiseks.\s*
+",HEADERWORD,header_word,lambda m: m.group(0).strip(),0,0
+"TEOSTATUD PROTSEDUURID:\s*
+",HEADERWORD,header_word,lambda m: m.group(0).strip(),0,0
+"Teostatud uuringud:\s*
+",HEADERWORD,header_word,lambda m: m.group(0).strip(),0,0
+"66202 Kliiniline veri\s*
+",HEADERWORD,header_word,lambda m: m.group(0).strip(),0,0
+"- Tagasi kutsutud.\s*
+",HEADERWORD,header_word,lambda m: m.group(0).strip(),0,0
+"EKG EKG\s*
+",HEADERWORD,header_word,lambda m: m.group(0).strip(),0,0
+"Põhjendus: ,\s*
+",HEADERWORD,header_word,lambda m: m.group(0).strip(),0,0
+"Ultraheli\s*
+",HEADERWORD,header_word,lambda m: m.group(0).strip(),0,0
+"VASTUSED:\s*
+",HEADERWORD,header_word,lambda m: m.group(0).strip(),0,0
+"KIRJELDUS\s*
+",HEADERWORD,header_word,lambda m: m.group(0).strip(),0,0
+"Kokkuvõte:\s*
+",HEADERWORD,header_word,lambda m: m.group(0).strip(),0,0
+"Koondhingamistest\s*
+",HEADERWORD,header_word,lambda m: m.group(0).strip(),0,0
+"Haiguse kulg:\s*
+",HEADERWORD,header_word,lambda m: m.group(0).strip(),0,0
+"Suunatud kontrolli.\s*
+",HEADERWORD,header_word,lambda m: m.group(0).strip(),0,0
+"Põhjendus: \+\s*
+",HEADERWORD,header_word,lambda m: m.group(0).strip(),0,0
+"OBJEKTIIVNE STAATUS\s*
+",HEADERWORD,header_word,lambda m: m.group(0).strip(),0,0
+"- MATJUS, SVETLANA - D01463 - E120 - endokrinoloogia\s*
+",HEADERWORD,header_word,lambda m: m.group(0).strip(),0,0
+"Tervisetõendi taotlemise otsus(ed):\s*
+",HEADERWORD,header_word,lambda m: m.group(0).strip(),0,0
+"OPERATSIOONID\s*
+",HEADERWORD,header_word,lambda m: m.group(0).strip(),0,0
+"Füsioteraapia ja ravivõimlemine\s*
+",HEADERWORD,header_word,lambda m: m.group(0).strip(),0,0
+"Güneko-tsütoloogiline uuring\s*
+",HEADERWORD,header_word,lambda m: m.group(0).strip(),0,0
+"Histoloogia\s*
+",HEADERWORD,header_word,lambda m: m.group(0).strip(),0,0
+"Haiguse anamnees:\s*
+",HEADERWORD,header_word,lambda m: m.group(0).strip(),0,0
+"Magnetresonantstomograafia\s*
+",HEADERWORD,header_word,lambda m: m.group(0).strip(),0,0
+"Histoloogiline uuring\s*
+",HEADERWORD,header_word,lambda m: m.group(0).strip(),0,0
+"Magnetresonantstomograafia\s*
+",HEADERWORD,header_word,lambda m: m.group(0).strip(),0,0
+"- Arst, Määramata\s*
+",HEADERWORD,header_word,lambda m: m.group(0).strip(),0,0
+"MANUSTATUD RAVIMID:\s*
+",HEADERWORD,header_word,lambda m: m.group(0).strip(),0,0
+"Angiograafia\s*
+",HEADERWORD,header_word,lambda m: m.group(0).strip(),0,0
+"UURINGUD JA PROTSEDUURID\s*
+",HEADERWORD,header_word,lambda m: m.group(0).strip(),0,0
+"Ultraheli\s*
+",HEADERWORD,header_word,lambda m: m.group(0).strip(),0,0
+"- GORELAŠVILI, GENADI - D04465 - E340 - radioloogia\s*
+",HEADERWORD,header_word,lambda m: m.group(0).strip(),0,0
+"URIIN\s*
+",HEADERWORD,header_word,lambda m: m.group(0).strip(),0,0
+"Hemogramm\s*
+",HEADERWORD,header_word,lambda m: m.group(0).strip(),0,0
+"7954 Vaginaalne ultraheliuuring\s*
+",HEADERWORD,header_word,lambda m: m.group(0).strip(),0,0
+"Põhjendus: uuring\s*
+",HEADERWORD,header_word,lambda m: m.group(0).strip(),0,0
+"MRT uuring\s*
+",HEADERWORD,header_word,lambda m: m.group(0).strip(),0,0
+"-  Üldseisund: hea.\s*
+",HEADERWORD,header_word,lambda m: m.group(0).strip(),0,0
+"-  REFRAKTSIOON    sph       cyl      ax\s*
+",HEADERWORD,header_word,lambda m: m.group(0).strip(),0,0
+"66207 URIIN\s*
+",HEADERWORD,header_word,lambda m: m.group(0).strip(),0,0
+"Hemogramm\s*
+",HEADERWORD,header_word,lambda m: m.group(0).strip(),0,0
+"KIRJELDUS\s*
+",HEADERWORD,header_word,lambda m: m.group(0).strip(),0,0
+"Güneko-tsütoloogiline uuring\s*
+",HEADERWORD,header_word,lambda m: m.group(0).strip(),0,0
+"visiit:\s*
+",HEADERWORD,header_word,lambda m: m.group(0).strip(),0,0
+"Endoskoopilised\s*
+",HEADERWORD,header_word,lambda m: m.group(0).strip(),0,0
+"Tsütoloogia\s*
+",HEADERWORD,header_word,lambda m: m.group(0).strip(),0,0
+"-  KUVARIGA TÖÖTAMISEL EI  VAJA PRILLE\s*
+",HEADERWORD,header_word,lambda m: m.group(0).strip(),0,0
+"Günekotsütoloogia\s*
+",HEADERWORD,header_word,lambda m: m.group(0).strip(),0,0
+"VASTUSED:\s*
+",HEADERWORD,header_word,lambda m: m.group(0).strip(),0,0
+"Günekotsütoloogiline uuring\s*
+",HEADERWORD,header_word,lambda m: m.group(0).strip(),0,0
+"UURINGUD:\s*
+",HEADERWORD,header_word,lambda m: m.group(0).strip(),0,0
+"Põhjendus: .\s*
+",HEADERWORD,header_word,lambda m: m.group(0).strip(),0,0
+"line veri Kliiniline veri\s*
+",HEADERWORD,header_word,lambda m: m.group(0).strip(),0,0
+"RASEDUSE ANDMED\s*
+",HEADERWORD,header_word,lambda m: m.group(0).strip(),0,0
+"SPIROMEETRIA\s*
+",HEADERWORD,header_word,lambda m: m.group(0).strip(),0,0
+"Põhjendus: uh\s*
+",HEADERWORD,header_word,lambda m: m.group(0).strip(),0,0
+"KOKKUVÕTE:\s*
+",HEADERWORD,header_word,lambda m: m.group(0).strip(),0,0
+"ENMG\s*
+",HEADERWORD,header_word,lambda m: m.group(0).strip(),0,0
+"Röntgenograafia\s*
+",HEADERWORD,header_word,lambda m: m.group(0).strip(),0,0
+"Kokkuvõte:\s*
+",HEADERWORD,header_word,lambda m: m.group(0).strip(),0,0
+"Kontroll\s*
+",HEADERWORD,header_word,lambda m: m.group(0).strip(),0,0
+"-  REFRAKTSIOON    sph    cyl    ax\s*
+",HEADERWORD,header_word,lambda m: m.group(0).strip(),0,0
+"Röntgenuuringud\s*
+",HEADERWORD,header_word,lambda m: m.group(0).strip(),0,0
+"Röntgenülesvõte\s*
+",HEADERWORD,header_word,lambda m: m.group(0).strip(),0,0
+"Adekvaatne.\s*
+",HEADERWORD,header_word,lambda m: m.group(0).strip(),0,0
+"Ösofagogastroduodenoskoopia\s*
+",HEADERWORD,header_word,lambda m: m.group(0).strip(),0,0
+"\*Hematoloogilised uuringud\s*
+",HEADERWORD,header_word,lambda m: m.group(0).strip(),0,0
+"- optometrist\s*
+",HEADERWORD,header_word,lambda m: m.group(0).strip(),0,0
+"Kompuutertomograafia\s*
+",HEADERWORD,header_word,lambda m: m.group(0).strip(),0,0
+"Hemogramm\s*
+",HEADERWORD,header_word,lambda m: m.group(0).strip(),0,0
+"Elektrokardiograafia\s*
+",HEADERWORD,header_word,lambda m: m.group(0).strip(),0,0
+"Parem:\s*
+",HEADERWORD,header_word,lambda m: m.group(0).strip(),0,0
+"RG6001 - Röntgeniülesvõte rindkerest (otseülesvõte, PA): Röntgenograafia\s*
+",HEADERWORD,header_word,lambda m: m.group(0).strip(),0,0
+"Mammograafia\s*
+",HEADERWORD,header_word,lambda m: m.group(0).strip(),0,0
+"66807 - Papanicolaou meetodil tehtud ja skriinija poolt hinnatud günekotsütoloogiline uuring: Günekotsütoloogia\s*
+",HEADERWORD,header_word,lambda m: m.group(0).strip(),0,0
+"VASTUSED:\s*
+",HEADERWORD,header_word,lambda m: m.group(0).strip(),0,0
+"Tsütoloogia\s*
+",HEADERWORD,header_word,lambda m: m.group(0).strip(),0,0
+"- silm\s*
+",HEADERWORD,header_word,lambda m: m.group(0).strip(),0,0
+"Põhjendus: UURING\s*
+",HEADERWORD,header_word,lambda m: m.group(0).strip(),0,0
+"Värvidoppleriga ehhokardiograafia\s*
+",HEADERWORD,header_word,lambda m: m.group(0).strip(),0,0
+"Põhjendus: prof\s*
+",HEADERWORD,header_word,lambda m: m.group(0).strip(),0,0
+"Otomikroskoopia\s*
+",HEADERWORD,header_word,lambda m: m.group(0).strip(),0,0
+"Günekotsütoloogia\s*
+",HEADERWORD,header_word,lambda m: m.group(0).strip(),0,0
+"Funktsionaaldiagnostilised\s*
+",HEADERWORD,header_word,lambda m: m.group(0).strip(),0,0
+"Suunatud perearsti poolt.\s*
+",HEADERWORD,header_word,lambda m: m.group(0).strip(),0,0
+"SPIROMEETRIA\s*
+",HEADERWORD,header_word,lambda m: m.group(0).strip(),0,0
+"Tegevusteraapia\s*
+",HEADERWORD,header_word,lambda m: m.group(0).strip(),0,0
+"Histoloogia\s*
+",HEADERWORD,header_word,lambda m: m.group(0).strip(),0,0
+"-  Võib töötada antud ametikohal.\s*
+",HEADERWORD,header_word,lambda m: m.group(0).strip(),0,0
+"EKG\s*
+",HEADERWORD,header_word,lambda m: m.group(0).strip(),0,0
+"Põhjendus: M70.8 Rakenduse, ülepingutuse ja survega seotud pehmete kudede muu\s*
+",HEADERWORD,header_word,lambda m: m.group(0).strip(),0,0
+"Hemogramm\s*
+",HEADERWORD,header_word,lambda m: m.group(0).strip(),0,0
+"PERIOODILINE TERVISEKONTROLL:\s*
+",HEADERWORD,header_word,lambda m: m.group(0).strip(),0,0
+"uuringud, ja analüüsid:\s*
+",HEADERWORD,header_word,lambda m: m.group(0).strip(),0,0
+"Põhjendus: Sisestatud registratuurist\s*
+",HEADERWORD,header_word,lambda m: m.group(0).strip(),0,0
+"Kolposkoopia\s*
+",HEADERWORD,header_word,lambda m: m.group(0).strip(),0,0
+"Kokkuvõte\s*
+",HEADERWORD,header_word,lambda m: m.group(0).strip(),0,0
+"Funktsionaaldiagnostilised\s*
+",HEADERWORD,header_word,lambda m: m.group(0).strip(),0,0
+"Naistekliiniku ultraheli\s*
+",HEADERWORD,header_word,lambda m: m.group(0).strip(),0,0
+"Põhjendus: histoloogiline uuring\s*
+",HEADERWORD,header_word,lambda m: m.group(0).strip(),0,0
+"Teostatud uuring:\s*
+",HEADERWORD,header_word,lambda m: m.group(0).strip(),0,0
+"Koronaarangioplastika (esimene stenoos)\s*
+",HEADERWORD,header_word,lambda m: m.group(0).strip(),0,0
+"Visus\s*
+",HEADERWORD,header_word,lambda m: m.group(0).strip(),0,0
+"Elektrokardiograafia\s*
+",HEADERWORD,header_word,lambda m: m.group(0).strip(),0,0
+": Urobilinogeen Normi piires\s*
+",HEADERWORD,header_word,lambda m: m.group(0).strip(),0,0
+"Röntgenograafia\s*
+",HEADERWORD,header_word,lambda m: m.group(0).strip(),0,0
+"Massaaž\s*
+",HEADERWORD,header_word,lambda m: m.group(0).strip(),0,0
+"Ehhokardiograafia\s*
+",HEADERWORD,header_word,lambda m: m.group(0).strip(),0,0
+"VASTUSED:\s*
+",HEADERWORD,header_word,lambda m: m.group(0).strip(),0,0
+"Kilpnäärme sonograafia:\s*
+",HEADERWORD,header_word,lambda m: m.group(0).strip(),0,0
+"- ARU, LY - D05449 - Laboriarst\s*
+",HEADERWORD,header_word,lambda m: m.group(0).strip(),0,0
+"-  KUVARIGA TÖÖTAMISEL VAJAB PRILLE\s*
+",HEADERWORD,header_word,lambda m: m.group(0).strip(),0,0
+"- tabel\s*
+",HEADERWORD,header_word,lambda m: m.group(0).strip(),0,0
+"Kliiniline veri\s*
+",HEADERWORD,header_word,lambda m: m.group(0).strip(),0,0
+"Tervisetõendi taotlemise otsused:\s*
+",HEADERWORD,header_word,lambda m: m.group(0).strip(),0,0
+"Kompuutertomograafia\s*
+",HEADERWORD,header_word,lambda m: m.group(0).strip(),0,0
+"Röntgenuuringud\s*
+",HEADERWORD,header_word,lambda m: m.group(0).strip(),0,0
+"EKG stats osakonnas\s*
+",HEADERWORD,header_word,lambda m: m.group(0).strip(),0,0
+"Spirograafia\s*
+",HEADERWORD,header_word,lambda m: m.group(0).strip(),0,0
+"- edastatud\s*
+",HEADERWORD,header_word,lambda m: m.group(0).strip(),0,0
+"Nõustatud\s*
+",HEADERWORD,header_word,lambda m: m.group(0).strip(),0,0
+"SPIROMEETRIA\s*
+",HEADERWORD,header_word,lambda m: m.group(0).strip(),0,0
+"Aparaatne füsioteraapia\s*
+",HEADERWORD,header_word,lambda m: m.group(0).strip(),0,0
+"Kolposkoopia\s*
+",HEADERWORD,header_word,lambda m: m.group(0).strip(),0,0
+"- PADRIK, LEE - D01697 - E370 - sünnitusabi ja günekoloogia\s*
+",HEADERWORD,header_word,lambda m: m.group(0).strip(),0,0
+"Välistegija, Arst:\s*
+",HEADERWORD,header_word,lambda m: m.group(0).strip(),0,0
+"Adekvaatne materjal.\s*
+",HEADERWORD,header_word,lambda m: m.group(0).strip(),0,0
+"Tsütoloogiline uuring\s*
+",HEADERWORD,header_word,lambda m: m.group(0).strip(),0,0
